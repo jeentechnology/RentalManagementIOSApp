@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C82A6AD01F364A59001A148B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82A6ACF1F364A59001A148B /* AppDelegate.swift */; };
+		C82A6AD21F364A59001A148B /* HouseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82A6AD11F364A59001A148B /* HouseTableViewController.swift */; };
+		C82A6AD51F364A59001A148B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C82A6AD31F364A59001A148B /* Main.storyboard */; };
+		C82A6AD81F364A59001A148B /* Rental_Management.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C82A6AD61F364A59001A148B /* Rental_Management.xcdatamodeld */; };
+		C82A6ADA1F364A59001A148B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C82A6AD91F364A59001A148B /* Assets.xcassets */; };
+		C82A6ADD1F364A59001A148B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C82A6ADB1F364A59001A148B /* LaunchScreen.storyboard */; };
+		C82A6AE81F364A59001A148B /* Rental_ManagementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82A6AE71F364A59001A148B /* Rental_ManagementTests.swift */; };
+		C82A6AF31F364A59001A148B /* Rental_ManagementUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82A6AF21F364A59001A148B /* Rental_ManagementUITests.swift */; };
+		C8A2AD991F38F2A800182419 /* PropertyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A2AD981F38F2A800182419 /* PropertyModel.swift */; };
+		C8A2AD9B1F39045800182419 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A2AD9A1F39045800182419 /* Address.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C82A6AE41F364A59001A148B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C82A6AC41F364A59001A148B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C82A6ACB1F364A59001A148B;
+			remoteInfo = "Rental Management";
+		};
+		C82A6AEF1F364A59001A148B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C82A6AC41F364A59001A148B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C82A6ACB1F364A59001A148B;
+			remoteInfo = "Rental Management";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C82A6ACC1F364A59001A148B /* Rental Management.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rental Management.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C82A6ACF1F364A59001A148B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C82A6AD11F364A59001A148B /* HouseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseTableViewController.swift; sourceTree = "<group>"; };
+		C82A6AD41F364A59001A148B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C82A6AD71F364A59001A148B /* Rental_Management.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Rental_Management.xcdatamodel; sourceTree = "<group>"; };
+		C82A6AD91F364A59001A148B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C82A6ADC1F364A59001A148B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C82A6ADE1F364A59001A148B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C82A6AE31F364A59001A148B /* Rental ManagementTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rental ManagementTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C82A6AE71F364A59001A148B /* Rental_ManagementTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rental_ManagementTests.swift; sourceTree = "<group>"; };
+		C82A6AE91F364A59001A148B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C82A6AEE1F364A59001A148B /* Rental ManagementUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rental ManagementUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C82A6AF21F364A59001A148B /* Rental_ManagementUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rental_ManagementUITests.swift; sourceTree = "<group>"; };
+		C82A6AF41F364A59001A148B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8A2AD981F38F2A800182419 /* PropertyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyModel.swift; sourceTree = "<group>"; };
+		C8A2AD9A1F39045800182419 /* Address.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C82A6AC91F364A59001A148B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C82A6AE01F364A59001A148B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C82A6AEB1F364A59001A148B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C82A6AC31F364A59001A148B = {
+			isa = PBXGroup;
+			children = (
+				C82A6ACE1F364A59001A148B /* Rental Management */,
+				C82A6AE61F364A59001A148B /* Rental ManagementTests */,
+				C82A6AF11F364A59001A148B /* Rental ManagementUITests */,
+				C82A6ACD1F364A59001A148B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C82A6ACD1F364A59001A148B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C82A6ACC1F364A59001A148B /* Rental Management.app */,
+				C82A6AE31F364A59001A148B /* Rental ManagementTests.xctest */,
+				C82A6AEE1F364A59001A148B /* Rental ManagementUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C82A6ACE1F364A59001A148B /* Rental Management */ = {
+			isa = PBXGroup;
+			children = (
+				C82A6ACF1F364A59001A148B /* AppDelegate.swift */,
+				C82A6AD11F364A59001A148B /* HouseTableViewController.swift */,
+				C82A6AD31F364A59001A148B /* Main.storyboard */,
+				C8A2AD981F38F2A800182419 /* PropertyModel.swift */,
+				C8A2AD9A1F39045800182419 /* Address.swift */,
+				C82A6AD91F364A59001A148B /* Assets.xcassets */,
+				C82A6ADB1F364A59001A148B /* LaunchScreen.storyboard */,
+				C82A6ADE1F364A59001A148B /* Info.plist */,
+				C82A6AD61F364A59001A148B /* Rental_Management.xcdatamodeld */,
+			);
+			path = "Rental Management";
+			sourceTree = "<group>";
+		};
+		C82A6AE61F364A59001A148B /* Rental ManagementTests */ = {
+			isa = PBXGroup;
+			children = (
+				C82A6AE71F364A59001A148B /* Rental_ManagementTests.swift */,
+				C82A6AE91F364A59001A148B /* Info.plist */,
+			);
+			path = "Rental ManagementTests";
+			sourceTree = "<group>";
+		};
+		C82A6AF11F364A59001A148B /* Rental ManagementUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C82A6AF21F364A59001A148B /* Rental_ManagementUITests.swift */,
+				C82A6AF41F364A59001A148B /* Info.plist */,
+			);
+			path = "Rental ManagementUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C82A6ACB1F364A59001A148B /* Rental Management */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C82A6AF71F364A59001A148B /* Build configuration list for PBXNativeTarget "Rental Management" */;
+			buildPhases = (
+				C82A6AC81F364A59001A148B /* Sources */,
+				C82A6AC91F364A59001A148B /* Frameworks */,
+				C82A6ACA1F364A59001A148B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rental Management";
+			productName = "Rental Management";
+			productReference = C82A6ACC1F364A59001A148B /* Rental Management.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C82A6AE21F364A59001A148B /* Rental ManagementTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C82A6AFA1F364A59001A148B /* Build configuration list for PBXNativeTarget "Rental ManagementTests" */;
+			buildPhases = (
+				C82A6ADF1F364A59001A148B /* Sources */,
+				C82A6AE01F364A59001A148B /* Frameworks */,
+				C82A6AE11F364A59001A148B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C82A6AE51F364A59001A148B /* PBXTargetDependency */,
+			);
+			name = "Rental ManagementTests";
+			productName = "Rental ManagementTests";
+			productReference = C82A6AE31F364A59001A148B /* Rental ManagementTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C82A6AED1F364A59001A148B /* Rental ManagementUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C82A6AFD1F364A59001A148B /* Build configuration list for PBXNativeTarget "Rental ManagementUITests" */;
+			buildPhases = (
+				C82A6AEA1F364A59001A148B /* Sources */,
+				C82A6AEB1F364A59001A148B /* Frameworks */,
+				C82A6AEC1F364A59001A148B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C82A6AF01F364A59001A148B /* PBXTargetDependency */,
+			);
+			name = "Rental ManagementUITests";
+			productName = "Rental ManagementUITests";
+			productReference = C82A6AEE1F364A59001A148B /* Rental ManagementUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C82A6AC41F364A59001A148B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Jeen Technology";
+				TargetAttributes = {
+					C82A6ACB1F364A59001A148B = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 432D4YMQ4Y;
+						ProvisioningStyle = Automatic;
+					};
+					C82A6AE21F364A59001A148B = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 432D4YMQ4Y;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C82A6ACB1F364A59001A148B;
+					};
+					C82A6AED1F364A59001A148B = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 432D4YMQ4Y;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C82A6ACB1F364A59001A148B;
+					};
+				};
+			};
+			buildConfigurationList = C82A6AC71F364A59001A148B /* Build configuration list for PBXProject "Rental Management" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C82A6AC31F364A59001A148B;
+			productRefGroup = C82A6ACD1F364A59001A148B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C82A6ACB1F364A59001A148B /* Rental Management */,
+				C82A6AE21F364A59001A148B /* Rental ManagementTests */,
+				C82A6AED1F364A59001A148B /* Rental ManagementUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C82A6ACA1F364A59001A148B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C82A6ADD1F364A59001A148B /* LaunchScreen.storyboard in Resources */,
+				C82A6ADA1F364A59001A148B /* Assets.xcassets in Resources */,
+				C82A6AD51F364A59001A148B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C82A6AE11F364A59001A148B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C82A6AEC1F364A59001A148B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C82A6AC81F364A59001A148B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8A2AD991F38F2A800182419 /* PropertyModel.swift in Sources */,
+				C82A6AD81F364A59001A148B /* Rental_Management.xcdatamodeld in Sources */,
+				C82A6AD21F364A59001A148B /* HouseTableViewController.swift in Sources */,
+				C82A6AD01F364A59001A148B /* AppDelegate.swift in Sources */,
+				C8A2AD9B1F39045800182419 /* Address.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C82A6ADF1F364A59001A148B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C82A6AE81F364A59001A148B /* Rental_ManagementTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C82A6AEA1F364A59001A148B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C82A6AF31F364A59001A148B /* Rental_ManagementUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C82A6AE51F364A59001A148B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C82A6ACB1F364A59001A148B /* Rental Management */;
+			targetProxy = C82A6AE41F364A59001A148B /* PBXContainerItemProxy */;
+		};
+		C82A6AF01F364A59001A148B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C82A6ACB1F364A59001A148B /* Rental Management */;
+			targetProxy = C82A6AEF1F364A59001A148B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C82A6AD31F364A59001A148B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C82A6AD41F364A59001A148B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C82A6ADB1F364A59001A148B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C82A6ADC1F364A59001A148B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C82A6AF51F364A59001A148B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C82A6AF61F364A59001A148B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C82A6AF81F364A59001A148B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 432D4YMQ4Y;
+				INFOPLIST_FILE = "Rental Management/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "beesley.Rental-Management";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C82A6AF91F364A59001A148B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 432D4YMQ4Y;
+				INFOPLIST_FILE = "Rental Management/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "beesley.Rental-Management";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C82A6AFB1F364A59001A148B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 432D4YMQ4Y;
+				INFOPLIST_FILE = "Rental ManagementTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "beesley.Rental-ManagementTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rental Management.app/Rental Management";
+			};
+			name = Debug;
+		};
+		C82A6AFC1F364A59001A148B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 432D4YMQ4Y;
+				INFOPLIST_FILE = "Rental ManagementTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "beesley.Rental-ManagementTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rental Management.app/Rental Management";
+			};
+			name = Release;
+		};
+		C82A6AFE1F364A59001A148B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 432D4YMQ4Y;
+				INFOPLIST_FILE = "Rental ManagementUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "beesley.Rental-ManagementUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Rental Management";
+			};
+			name = Debug;
+		};
+		C82A6AFF1F364A59001A148B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 432D4YMQ4Y;
+				INFOPLIST_FILE = "Rental ManagementUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "beesley.Rental-ManagementUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Rental Management";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C82A6AC71F364A59001A148B /* Build configuration list for PBXProject "Rental Management" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C82A6AF51F364A59001A148B /* Debug */,
+				C82A6AF61F364A59001A148B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C82A6AF71F364A59001A148B /* Build configuration list for PBXNativeTarget "Rental Management" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C82A6AF81F364A59001A148B /* Debug */,
+				C82A6AF91F364A59001A148B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C82A6AFA1F364A59001A148B /* Build configuration list for PBXNativeTarget "Rental ManagementTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C82A6AFB1F364A59001A148B /* Debug */,
+				C82A6AFC1F364A59001A148B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C82A6AFD1F364A59001A148B /* Build configuration list for PBXNativeTarget "Rental ManagementUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C82A6AFE1F364A59001A148B /* Debug */,
+				C82A6AFF1F364A59001A148B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C82A6AD61F364A59001A148B /* Rental_Management.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C82A6AD71F364A59001A148B /* Rental_Management.xcdatamodel */,
+			);
+			currentVersion = C82A6AD71F364A59001A148B /* Rental_Management.xcdatamodel */;
+			path = Rental_Management.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C82A6AC41F364A59001A148B /* Project object */;
+}
