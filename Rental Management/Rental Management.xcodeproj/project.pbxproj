@@ -8,15 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		C82A6AD01F364A59001A148B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82A6ACF1F364A59001A148B /* AppDelegate.swift */; };
-		C82A6AD21F364A59001A148B /* HouseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82A6AD11F364A59001A148B /* HouseTableViewController.swift */; };
+		C82A6AD21F364A59001A148B /* PropertyDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82A6AD11F364A59001A148B /* PropertyDetailViewController.swift */; };
 		C82A6AD51F364A59001A148B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C82A6AD31F364A59001A148B /* Main.storyboard */; };
 		C82A6AD81F364A59001A148B /* Rental_Management.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C82A6AD61F364A59001A148B /* Rental_Management.xcdatamodeld */; };
 		C82A6ADA1F364A59001A148B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C82A6AD91F364A59001A148B /* Assets.xcassets */; };
 		C82A6ADD1F364A59001A148B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C82A6ADB1F364A59001A148B /* LaunchScreen.storyboard */; };
 		C82A6AE81F364A59001A148B /* Rental_ManagementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82A6AE71F364A59001A148B /* Rental_ManagementTests.swift */; };
 		C82A6AF31F364A59001A148B /* Rental_ManagementUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82A6AF21F364A59001A148B /* Rental_ManagementUITests.swift */; };
-		C8A2AD991F38F2A800182419 /* PropertyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A2AD981F38F2A800182419 /* PropertyModel.swift */; };
 		C8A2AD9B1F39045800182419 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A2AD9A1F39045800182419 /* Address.swift */; };
+		C8A2AD9F1F3B89B500182419 /* HouseTableViewCellControllerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A2AD9E1F3B89B500182419 /* HouseTableViewCellControllerTableViewCell.swift */; };
+		C8A2ADA11F3B8BD000182419 /* PropertyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A2ADA01F3B8BD000182419 /* PropertyTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,7 @@
 /* Begin PBXFileReference section */
 		C82A6ACC1F364A59001A148B /* Rental Management.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rental Management.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C82A6ACF1F364A59001A148B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C82A6AD11F364A59001A148B /* HouseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseTableViewController.swift; sourceTree = "<group>"; };
+		C82A6AD11F364A59001A148B /* PropertyDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyDetailViewController.swift; sourceTree = "<group>"; };
 		C82A6AD41F364A59001A148B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C82A6AD71F364A59001A148B /* Rental_Management.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Rental_Management.xcdatamodel; sourceTree = "<group>"; };
 		C82A6AD91F364A59001A148B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,8 +52,9 @@
 		C82A6AEE1F364A59001A148B /* Rental ManagementUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rental ManagementUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C82A6AF21F364A59001A148B /* Rental_ManagementUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rental_ManagementUITests.swift; sourceTree = "<group>"; };
 		C82A6AF41F364A59001A148B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C8A2AD981F38F2A800182419 /* PropertyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyModel.swift; sourceTree = "<group>"; };
 		C8A2AD9A1F39045800182419 /* Address.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		C8A2AD9E1F3B89B500182419 /* HouseTableViewCellControllerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HouseTableViewCellControllerTableViewCell.swift; sourceTree = "<group>"; };
+		C8A2ADA01F3B8BD000182419 /* PropertyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,9 +106,10 @@
 			isa = PBXGroup;
 			children = (
 				C82A6ACF1F364A59001A148B /* AppDelegate.swift */,
-				C82A6AD11F364A59001A148B /* HouseTableViewController.swift */,
+				C82A6AD11F364A59001A148B /* PropertyDetailViewController.swift */,
+				C8A2AD9E1F3B89B500182419 /* HouseTableViewCellControllerTableViewCell.swift */,
 				C82A6AD31F364A59001A148B /* Main.storyboard */,
-				C8A2AD981F38F2A800182419 /* PropertyModel.swift */,
+				C8A2ADA01F3B8BD000182419 /* PropertyTableViewController.swift */,
 				C8A2AD9A1F39045800182419 /* Address.swift */,
 				C82A6AD91F364A59001A148B /* Assets.xcassets */,
 				C82A6ADB1F364A59001A148B /* LaunchScreen.storyboard */,
@@ -271,10 +274,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8A2AD991F38F2A800182419 /* PropertyModel.swift in Sources */,
 				C82A6AD81F364A59001A148B /* Rental_Management.xcdatamodeld in Sources */,
-				C82A6AD21F364A59001A148B /* HouseTableViewController.swift in Sources */,
+				C82A6AD21F364A59001A148B /* PropertyDetailViewController.swift in Sources */,
 				C82A6AD01F364A59001A148B /* AppDelegate.swift in Sources */,
+				C8A2AD9F1F3B89B500182419 /* HouseTableViewCellControllerTableViewCell.swift in Sources */,
+				C8A2ADA11F3B8BD000182419 /* PropertyTableViewController.swift in Sources */,
 				C8A2AD9B1F39045800182419 /* Address.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

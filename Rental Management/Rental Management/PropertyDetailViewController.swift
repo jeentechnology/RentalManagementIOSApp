@@ -1,5 +1,5 @@
 //
-//  HouseTableViewController.swift
+//  PropertyDetailViewController.swift
 //  Rental Management
 //
 //  Created by mbeesley on 8/5/17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HouseTableViewController: UIViewController {
+class PropertyDetailViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,6 +19,9 @@ class HouseTableViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
+    //MARK: Properties
 
 
 }
